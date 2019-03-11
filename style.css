@@ -1,0 +1,455 @@
+html, body{
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 15px;
+}
+.contain{
+    max-width: 1200px;
+    margin: auto;
+}
+.back{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#view_port_img {
+    /* background-image: url(images/jeux.jpg); */
+    background-image: url(images/back_prism.jpg);
+}
+#view_port_img_prism {
+    background-image: url(images/menu.png);
+}
+#view_port{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3300ef+0,8f23af+100&0.5+0,0.5+100 */
+background: -moz-linear-gradient(top,  rgba(51,0,239,0.5) 0%, rgba(143,35,175,0.5) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(51,0,239,0.5) 0%,rgba(143,35,175,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(51,0,239,0.5) 0%,rgba(143,35,175,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#803300ef', endColorstr='#808f23af',GradientType=0 ); /* IE6-9 */
+
+    
+}
+nav{
+    margin: auto;
+    max-width: 1200px;
+    padding: 20px 20px;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    animation: fade_nav 2s;
+    
+}
+@keyframes fade_nav{
+    0% {
+        opacity: 0;
+        left: 50px;
+    }
+    50% {
+        opacity: 0;
+        left: 50px;
+    }
+    100% {
+        opcaity: 1;
+        left: 0;
+    }
+}
+nav a{
+    margin-right: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+nav a:hover{
+    color: white;
+}
+nav h2{
+    margin: 0 30px 0 10px;
+    font-size: 20px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 0;
+    
+}
+.fullsize_viewport{
+}
+.fullsize_viewport p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 25px;
+    animation: fade_text 2s;
+}
+@keyframes fade_text{
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fullsize_table_viewport{
+    width: 100%;
+    border-collapse: collapse;
+}
+.logo_crypteam_viewport{
+    max-width: 400px;
+    display: block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    animation: fade_logo 1s;
+}
+@keyframes fade_logo{
+    0% {
+        opacity: 0;
+        bottom: 50px;
+    }
+    100% {
+        opacity: 1;
+        bottom: 0;
+    }
+}
+.color_logo{
+    color: #662D91;
+    padding: 0 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: -5px;
+}
+h1{
+    color: white;
+    display: block;
+    margin: 50px 0 0 0;
+    text-align: center;
+    font-weight: 100;
+    font-size: 80px;
+    animation: fade_h1 2s;
+}
+@keyframes fade_h1{
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#all{
+    
+}
+.bande{
+    height: 100px;
+    background-color: #002835;
+}
+#projet{
+    background-color: white;
+    max-width: 1200px;
+    margin: -150px auto 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+h3{
+    color: #222c37;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-shadow: 0 2px rgba(0, 0, 0, 0.2);
+}
+
+#all_projets{
+    padding: 10px 30px;
+    margin: auto;
+    text-align: center;
+}
+.card_projet{
+    border-radius: 2px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 5px 10px 5px;
+    display: inline-block;
+    -webkit-box-shadow: 0px 5px 7px 0px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    0px 5px 7px 0px rgba(50, 50, 50, 0.5);
+box-shadow:         0px 5px 7px 0px rgba(50, 50, 50, 0.5);
+}
+.voile_card:hover{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3300ef+0,8f23af+100&0.5+0,0.5+100 */
+background: -moz-linear-gradient(top,  rgba(51,0,239,0.5) 0%, rgba(143,35,175,0.5) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(51,0,239,0.5) 0%,rgba(143,35,175,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(51,0,239,0.5) 0%,rgba(143,35,175,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#803300ef', endColorstr='#808f23af',GradientType=0 ); /* IE6-9 */
+
+}
+.voile_card{
+    padding: 85px 0;
+    width: 400px;
+    border-radius: 2px;
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.3) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#803300ef', endColorstr='#808f23af',GradientType=0 ); /* IE6-9 */
+    transition: all 0.3s;
+}
+#nous{
+    background-color: #e7edf3;
+    padding: 20px 0;
+    margin: 20px 0 0 0;
+}
+.subtitle_nous{
+    display: block;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    color: #662D91;
+    margin: 0 0 20px 0;
+}
+.logo_prism_nous{
+    max-height: 200px;
+    margin: auto;
+    display: block;
+}
+.nous_pers{
+    width: 100%;
+    border-collapse: collapse;
+}
+.nous_pers td{
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+}
+.td_nous{
+    margin: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.card_td_nous{
+    background-color: white;
+    padding: 30px 5px;
+    font-size: 20px;
+    
+}
+.text_td_nous{
+    padding: 20px 10px;
+    color: rgba(0, 0, 0, 0.68);
+    font-size: 17px;
+}
+.line_before_footer{
+    height: 5px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#43d352+0,00b4d8+100 */
+background: rgb(67,211,82); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(67,211,82,1) 0%, rgba(0,180,216,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(67,211,82,1) 0%,rgba(0,180,216,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(67,211,82,1) 0%,rgba(0,180,216,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#43d352', endColorstr='#00b4d8',GradientType=1 ); /* IE6-9 */
+
+}
+footer{
+
+background: white;
+
+
+    min-height: 200px;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 80px;
+}
+footer .subsection{
+    font-size: 25px;
+    color: #662D91;
+    vertical-align: middle;
+}
+.logo_footer{
+    height: 40px;
+    display: inline-block;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+}
+hr{
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+.table_footer{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.table_footer td{
+    width: 25%;
+    font-size: 1em;
+    line-height: 1.5em;
+    vertical-align: top;
+}
+.table_footer td a{
+    color: #662D91;
+    padding: 5px 15px;
+    border: 1px solid #662D91;
+    text-decoration: none;
+    background: rgba(102, 45, 145, 0);
+    border-radius: 999px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.table_footer td a:hover{
+    color: white;
+    background: #662D91;
+    
+}
+*::selection { 
+    background:#662D91; 
+    color:white; 
+} 
+
+
+
+/* PRISM PART */
+#presentation_video_game{
+	padding: 50px 0;
+}
+#presentation_video_game table{
+	border-collapse: collapse;
+	width: 100%;
+}
+#presentation_video_game table td:first-child{
+	width : 300px;
+}
+#presentation_video_game table td{
+	vertical-align: middle;
+}
+
+#presentation_video_game .pre_video_game_text{
+	vertical-align: middle;
+	margin: 0 50px 0 0;
+	font-size: 20px;
+}
+
+#video_game_pre{
+	background-image: url('/images/ingame.png');
+	color: #662d91;
+	padding: 200px 0;
+	text-align: center;
+	font-weight: 100;
+	font-size: 50px;
+}
+
+/* LIENS */
+
+#view_port_img_lien {
+    background-image: url(images/liens.jpg);
+}
+.classic #view_port{
+    
+}
+.classic .fullsize_table_viewport{
+    margin: 50px 0;
+}
+.classic #view_port_img_lien{
+    padding-bottom: 30px;
+}
+.card_view{
+    border-radius: 3px;
+    margin: 16px 0;
+    font-size: 17px;
+    -webkit-box-shadow: 0px 5px 7px 0px rgba(50, 50, 50, 0.42);
+    -moz-box-shadow:    0px 5px 7px 0px rgba(50, 50, 50, 0.42);
+    box-shadow:         0px 5px 7px 0px rgba(50, 50, 50, 0.42);
+}
+.card_view table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.card_view td{
+    padding: 16px;
+}
+.card_view .left{
+    color: white;
+    border-radius: 3px 0 0 3px;
+    width: 170px;
+}
+.card_view .text_in_card{
+    background-color: white;
+    color: black;
+}
+.card_view .right_download{
+    background-color: white;
+    border-radius: 0 3px 3px 0;
+    width: 120px;
+}
+.card_view .download_card{
+    padding: 5px 16px;
+    margin: -5px 0;
+    border-radius: 999px;
+    border: 1px solid #533cb9;
+    color: #533cb9;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.card_view .download_card:hover{
+    background-color: #533cb9;
+    color: white;
+    
+}
+#bugs{
+    padding: 50px 0;
+}
+#bugs table{
+	border-collapse: collapse;
+	width: 100%;
+}
+#bugs table td:first-child{
+	width : 300px;
+}
+#bugs table td{
+	vertical-align: middle;
+}
+
+#bugs .pre_video_game_text{
+	vertical-align: middle;
+	margin: 0 50px 0 0;
+	font-size: 20px;
+}
+
+/* CONTACT */
+.contact_card{
+    background-color: white;
+    padding: 50px;
+}
+
+.input_contact{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 13px;
+    border-radius: 3px;
+    border: 1px solid rgba(73, 28, 128, 0.3);
+    margin: 10px 0;
+    transition: all 0.3s;
+}
+.input_contact:focus{
+    outline:  none;
+    border: 1px solid rgba(73, 28, 128, 1);
+}
+.bouton_form{
+    display: inline-block;
+    padding: 13px;
+    border-radius: 3px;
+    color: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(73, 28, 128, 0.3);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.bouton_form:hover{
+    color: rgba(73, 28, 128, 1);
+    border: 1px solid rgba(73, 28, 128, 1);
+}
