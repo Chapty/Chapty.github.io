@@ -16,17 +16,16 @@ html, body{
     background-repeat: no-repeat;
 }
 #view_port_img {
-    /* background-image: url(images/jeux.jpg); */
-    background-image: url(images/back_prism.jpg);
+    background-image: url(images/Apodis.png);
 }
 #view_port_img_prism {
-    background-image: url(images/menu.png);
+    background-image: url(images/Apodis.png);
 }
 #view_port{
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3300ef+0,8f23af+100&0.5+0,0.5+100 */
-background: -moz-linear-gradient(top,  rgba(51,0,239,0.5) 0%, rgba(143,35,175,0.5) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(51,0,239,0.5) 0%,rgba(143,35,175,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(51,0,239,0.5) 0%,rgba(143,35,175,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    
+background: -moz-linear-gradient(top,  rgba(211,84,0,0.5) 0%, rgba(143,35,175,0.5) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(211,84,0,0.5) 0%,rgba(143,35,175,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(211,84,0,0.5) 0%,rgba(143,35,175,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#803300ef', endColorstr='#808f23af',GradientType=0 ); /* IE6-9 */
 
     
@@ -121,6 +120,12 @@ nav h2{
     padding: 0 5px;
     background-color: rgba(255, 255, 255, 0.7);
     margin-top: -5px;
+}
+.color_logo2{
+    color: #662D91;
+    padding: 0 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-top: -5px;	
 }
 h1{
     color: white;
